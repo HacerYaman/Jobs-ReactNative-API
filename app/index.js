@@ -20,8 +20,8 @@ const Home=()=>{
                 headerLeft:()=>( 
                 <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />),
                 headerRight:()=>( 
-                    <ScreenHeaderBtn iconUrl={icons.profile} dimension="100%" />),
-                headerTitle:""
+                    <ScreenHeaderBtn iconUrl={images.profile} dimension="100%" />),
+                headerTitle:"Header Title"
             }}>
             </Stack.Screen>
 
@@ -29,9 +29,9 @@ const Home=()=>{
 
                 <View style={{flex:1, padding: SIZES.medium}}>
 
-                    <Welcome>
-                        
-                    </Welcome>
+                    <Welcome> </Welcome>
+                    <Popularjobs></Popularjobs>
+                    <Nearbyjobs></Nearbyjobs>
                 </View>
 
             </ScrollView>
