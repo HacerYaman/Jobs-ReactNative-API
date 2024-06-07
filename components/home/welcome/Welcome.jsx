@@ -37,7 +37,7 @@ const Welcome = () => {
         </TouchableOpacity>
       </View>
 
-      <FlatList
+      <FlatList   //SCROLABLE CLICKABLE BUTTONS LIST 
         data={jobTypes}
         horizontal
         renderItem={({ item }) => (
